@@ -3,3 +3,8 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.unity{
+  display: block;
+  margin: 0 auto;
+}

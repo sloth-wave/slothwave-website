@@ -9,6 +9,7 @@
     "react-router-dom": "^4.2.2",
     "react-router-native": "^4.2.0",
     "react-scripts": "1.1.0",
+    "react-unity-webgl": "^6.4.4",
     "webpack": "^3.11.0"
   },
   "scripts": {

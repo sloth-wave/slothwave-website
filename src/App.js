@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 
 import Main from './Main'
 
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/images/slothwave_icon.png';
+
+// Styles
+import './styles/App.css';
 
 class App extends Component {
   render() {
@@ -15,11 +17,11 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Slothwave</h1>
           </Link>
+          <nav>
+            {/* <Link to='/transmitter-quitter'>Play Transmitter Quitter</Link> */}
+          </nav>
         </header>
 
-        <p>
-          <Link to='/transmitter-quitter'>Play Transmitter Quitter</Link>
-        </p>
         <Main>{this.props.children}</Main>
 
         <footer className="App-footer"></footer>
