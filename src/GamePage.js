@@ -56,7 +56,7 @@ class GamePage extends Component {
                 <span>Danny Woods:</span> Programming and art
               </li>
               <li>
-                <span>Jacob Golden-Needham:</span> Programming
+                <span>J Golden-Needham:</span> Programming
               </li>
               <li>
                 <span>Jon Glover:</span> Programming and art
